@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Paiement UPI - Uriel Soro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      background: #f9f9f9;
+      padding: 40px;
+    }
+    h1 {
+      color: #333;
+    }
+    .button {
+      display: block;
+      width: 80%;
+      max-width: 300px;
+      margin: 15px auto;
+      padding: 15px;
+      font-size: 18px;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+    .gpay {
+      background: #0f9d58;
+    }
+    .paytm {
+      background: #0039f0;
+    }
+  </style>
+</head>
+<body>
+  <h1>TheDyy UPI </h1>
+  <p>Choisissez une application de paiement :</p>
+
+  <a class="button gpay"
+     href="gpay://upi/pay?pa=urielsoro@okhdfcbank&pn=Uriel%20Soro&am=0&cu=INR&tn=Merci%20pour%20le%20paiement">
+    Payer avec Google Pay
+  </a>
+
+  <a class="button paytm"
+     href="paytm://upi/pay?pa=urielsoro@okhdfcbank&pn=Uriel%20Soro&am=0&cu=INR&tn=Merci%20pour%20le%20paiement">
+    Payer avec Paytm
+  </a>
+
+  <p style="margin-top:30px; color: #777;">UPI ID : <strong>urielsoro@okhdfcbank</strong></p>
+</body>
+</html>
